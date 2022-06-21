@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-web-call-api
+spec:
+  podSelector:
+    matchLabels:
+      app: tour-of-heroes-api
+      role: backend
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app: tour-of-heroes-web
+              role: frontend
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: tour-of-heroes-two
+          podSelector:
+            matchLabels:
+              app: tour-of-heroes-web
+              role: frontend
+      ports:
+        - protocol: TCP
+          port: 5000
