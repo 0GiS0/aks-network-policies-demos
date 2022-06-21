@@ -1,7 +1,7 @@
-GET http://20.31.69.178/api/hero HTTP/1.1
+GET http://<YOUR_API_PUBLIC_IP>/api/hero HTTP/1.1
 
 ###
-POST http://20.31.69.178/api/hero HTTP/1.1
+POST http://<YOUR_API_PUBLIC_IP>/api/hero HTTP/1.1
 content-type: application/json
 
 {
@@ -11,7 +11,7 @@ content-type: application/json
 }
 
 ###
-POST http://20.31.69.178/api/hero HTTP/1.1
+POST http://<YOUR_API_PUBLIC_IP>/api/hero HTTP/1.1
 content-type: application/json
 
 {
@@ -21,7 +21,7 @@ content-type: application/json
 }
 
 ###
-POST http://20.31.69.178/api/hero HTTP/1.1
+POST http://<YOUR_API_PUBLIC_IP>/api/hero HTTP/1.1
 content-type: application/json
 
 {
@@ -31,7 +31,7 @@ content-type: application/json
 }
 
 ###
-POST http://20.31.69.178/api/hero HTTP/1.1
+POST http://<YOUR_API_PUBLIC_IP>/api/hero HTTP/1.1
 content-type: application/json
 
 {
@@ -41,7 +41,7 @@ content-type: application/json
 }
 
 ###
-POST http://20.31.69.178/api/hero HTTP/1.1
+POST http://<YOUR_API_PUBLIC_IP>/api/hero HTTP/1.1
 content-type: application/json
 
 {
@@ -51,7 +51,7 @@ content-type: application/json
 }
 
 ###
-POST http://20.31.69.178/api/hero HTTP/1.1
+POST http://<YOUR_API_PUBLIC_IP>/api/hero HTTP/1.1
 content-type: application/json
 
 {
@@ -61,7 +61,7 @@ content-type: application/json
 }
 
 ###
-POST http://20.31.69.178/api/hero HTTP/1.1
+POST http://<YOUR_API_PUBLIC_IP>/api/hero HTTP/1.1
 content-type: application/json
 
 {
